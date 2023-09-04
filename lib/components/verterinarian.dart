@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
 class Veterinarian extends StatelessWidget {
-  String avatar;
-  String vetName;
-  Veterinarian({super.key, required this.avatar, required this.vetName});
+  final String avatar;
+  final String vetName;
+  const Veterinarian({super.key, required this.avatar, required this.vetName});
 
   @override
   Widget build(BuildContext context) {
@@ -26,7 +26,7 @@ class Veterinarian extends StatelessWidget {
             ),
             Text(
               vetName,
-              style: TextStyle(
+              style: const TextStyle(
                 fontFamily: 'Open Sans',
               ),
             ),

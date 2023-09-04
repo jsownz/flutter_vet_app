@@ -1,15 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/services.dart';
 import 'package:flutter_vet_app/constants.dart';
 import 'package:flutter_vet_app/screens/home_screen.dart';
 
 void main() {
-  SystemChrome.setSystemUIOverlayStyle(
-    const SystemUiOverlayStyle(
-      statusBarColor: Colors.white,
-      systemNavigationBarColor: kOrange,
-    ),
-  );
   runApp(const MyApp());
 }
 
